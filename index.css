@@ -1,0 +1,133 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        /* border: red solid 1px; */
+}
+
+body {
+    background-color: aliceblue;
+}
+
+main {
+    max-width: 1600px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.column-left {
+    margin-left: 50px;
+    min-width: 250px;
+    width: 20%;
+    padding-right: 80px;
+}
+
+.headline {
+    margin-bottom: 25px;
+}
+
+.profile-pic {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.link {
+    gap: 15px;
+    display: flex;
+    margin-bottom: 10px;
+    width: min-content;
+    white-space: nowrap;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    fill: rgb(46, 40, 86);
+}
+
+.content {
+    margin-right: 50px;
+}
+
+.column-left h2,
+.content h2 {
+    border-bottom: solid black 2px;
+}
+
+.headline h2 {
+    margin-bottom: 3px;
+}
+
+.abilities .headline p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 2px;
+}
+
+.column-right {
+    width: 80%;
+    margin-right: 20px;
+}
+
+header {
+    padding: 15px;
+    color: white;
+    background-color: rgb(46, 40, 86);
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.pitch {
+    margin-top: 5px;
+}
+
+.border-container {
+    display: inline-block;
+    border-bottom: white solid 2px;
+    padding-right: 20px;
+  }
+
+h3 {
+    white-space: nowrap;
+    width: min-content;
+}
+
+.content h2,
+.content h4,
+.content p {
+    padding: 0 20px;
+    margin: 5px 0;
+}
+
+.occupation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.occupation p {
+    /* width: 10ch; */
+    text-align: end;
+}
+
+.description {
+    max-width: 75ch;
+}
+
+h4 {
+    padding: 0;
+    font-weight: 700;
+}

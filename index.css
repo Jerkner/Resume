@@ -7,6 +7,7 @@
 body {
     background-color: aliceblue;
     font-family: 'Open Sans', sans-serif;
+    color: rgb(46, 40, 86);
 }
 
 main {
@@ -37,7 +38,7 @@ main {
 }
 
 header .highlight {
-    color: #87B24D;
+    color: rgb(255, 192, 203);
     font-weight: 400;
 }
 
@@ -95,7 +96,7 @@ header {
     margin-bottom: 0.67em;
     padding: 0.67em;
     background-color: rgb(46, 40, 86);
-    color: white;
+    color: aliceblue;
 }
 
 h1 {
@@ -113,7 +114,7 @@ h1 {
 
 .border-container {
     display: inline-block;
-    border-bottom: white solid 1.33px;
+    border-bottom: aliceblue solid 1.33px;
     padding-right: 0.825em;
 }
 

@@ -49,6 +49,7 @@ a {
 }
 
 .link {
+    text-decoration: none;
     display: flex;
     width: min-content;
     margin-bottom: 0.333em;

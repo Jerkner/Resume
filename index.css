@@ -94,20 +94,23 @@ header {
 }
 
 h1 {
-    font-size: 1.33em;
+    font-size: 2em;
 }
 
 .pitch {
     margin-top: 0.1675em;
+    max-width: 90%;
 }
 
 .border-container {
     display: inline-block;
-    padding-right: 0.825em;
     border-bottom: white solid 1.33px;
+    padding-right: 0.825em;
 }
 
-h3 {
+.subtitle {
+    font-weight: 600;
+    font-size: 1.25em;
     width: min-content;
     white-space: nowrap;
 }

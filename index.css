@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-        /* border: red solid 1px; */
 }
 
 body {
@@ -10,96 +9,94 @@ body {
 }
 
 main {
-    max-width: 1600px;
+    max-height: 1050px;
+    min-width: 992px;
+    max-width: 1485px;
     font-family: 'Open Sans', sans-serif;
     display: flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 1em;
+    padding-bottom: 0.8em;
     margin: 0 auto;
 }
 
 .column-left {
-    margin-left: 50px;
-    min-width: 250px;
-    width: 20%;
-    padding-right: 80px;
+    margin-left: 2em;
+    min-width: 10.72em;
+    width: 13.4%;
+    padding-right: 3.35em;
 }
 
 .headline {
-    margin-bottom: 25px;
+    margin-bottom: 1em;
 }
 
 .profile-pic {
-    max-width: 200px;
+    max-width: 8.38em;
     border-radius: 50%;
-    margin-bottom: 25px;
+    margin-bottom: 1em;
 }
 
 .contact {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 0.335em;
 }
 
 .link {
-    gap: 15px;
+    gap: 0.67em;
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 0.335em;
     width: min-content;
     white-space: nowrap;
 }
 
 .icon {
-    width: 25px;
-    height: 25px;
+    width: 1em;
+    height: 1em;
     fill: rgb(46, 40, 86);
-}
-
-.content {
-    margin-right: 50px;
 }
 
 .column-left h2,
 .content h2 {
-    border-bottom: solid black 2px;
+    border-bottom: solid black 1.34px;
 }
 
 .headline h2 {
-    margin-bottom: 3px;
+    margin-bottom: 0.134em;
 }
 
 .abilities .headline p {
     display: flex;
     align-items: center;
-    gap: 5px;
-    margin: 2px;
+    gap: 0.1675em;
+    margin: 0.084em;
 }
 
 .column-right {
-    width: 80%;
-    margin-right: 20px;
+    width: 86.6%;
+    margin-right: 0.838em;
 }
 
 header {
-    padding: 15px;
+    padding: 0.67em;
     color: white;
     background-color: rgb(46, 40, 86);
-    margin-bottom: 30px;
+    margin-bottom: 0.67em;
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 1.34em;
 }
 
 .pitch {
-    margin-top: 5px;
+    margin-top: 0.1675em;
 }
 
 .border-container {
     display: inline-block;
-    border-bottom: white solid 2px;
-    padding-right: 20px;
-  }
+    border-bottom: white solid 1.34px;
+    padding-right: 0.838em;
+}
 
 h3 {
     white-space: nowrap;
@@ -109,8 +106,12 @@ h3 {
 .content h2,
 .content h4,
 .content p {
-    padding: 0 20px;
-    margin: 5px 0;
+    padding: 0 0.838em;
+    margin: 0.1675em 0;
+}
+
+.content h2 {
+    font-size: 1.25em;
 }
 
 .occupation {
@@ -119,15 +120,16 @@ h3 {
 }
 
 .occupation p {
-    /* width: 10ch; */
     text-align: end;
 }
 
 .description {
-    max-width: 75ch;
+    font-size: 0.9375em;
+    max-width: 100ch;
 }
 
 h4 {
+    font-size: 90%;
     padding: 0;
     font-weight: 700;
 }

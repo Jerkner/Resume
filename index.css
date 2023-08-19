@@ -43,6 +43,11 @@ main {
     gap: 0.333em;
 }
 
+a {
+    display: flex;
+    align-items: center;
+}
+
 .link {
     display: flex;
     width: min-content;

@@ -11,7 +11,6 @@ body {
 
 main {
     max-height: 1050px;
-    /* min-width: 992px; */
     max-width: 1200px;
     font-family: 'Open Sans', sans-serif;
     display: flex;
@@ -21,19 +20,24 @@ main {
 }
 
 .column-left {
-    margin-left: 2em;
-    min-width: 10.72em;
-    width: 13.4%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 1em;
+    min-width: 10em;
+    width: max(12.5%, 10em);
     padding-right: 3.35em;
 }
 
-.headline {
+.profile-pic {
+    text-align: center;
+    width: 8.33em;
+    height: 8.33em;
+    border-radius: 50%;
     margin-bottom: 1em;
 }
 
-.profile-pic {
-    max-width: 8em;
-    border-radius: 50%;
+.headline {
     margin-bottom: 1em;
 }
 
@@ -72,11 +76,12 @@ main {
     align-items: center;
     gap: 0.1675em;
     margin: 0.084em;
+    white-space: nowrap;
 }
 
 .column-right {
     width: 86.6%;
-    margin-right: 0.838em;
+    margin-right: 1em;
 }
 
 header {

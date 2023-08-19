@@ -36,6 +36,11 @@ main {
     margin-bottom: 1em;
 }
 
+header .highlight {
+    color: #87B24D;
+    font-weight: 400;
+}
+
 .contact {
     display: flex;
     flex-direction: column;
@@ -100,6 +105,10 @@ h1 {
 .pitch {
     margin-top: 0.1675em;
     max-width: 90%;
+}
+
+.highlight {
+    font-weight: 700;
 }
 
 .border-container {

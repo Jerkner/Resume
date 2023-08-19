@@ -2,39 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: red solid 1px; */
 }
 
 body {
     background-color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
 }
 
 main {
-    max-height: 1050px;
-    max-width: 1200px;
-    font-family: 'Open Sans', sans-serif;
     display: flex;
-    padding-top: 1em;
-    padding-bottom: 0.75em;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 1em 0.75em 0;
 }
 
 .column-left {
-    display: flex;
-    flex-direction: column;
-    margin-left: 1em;
-    margin-right: 1em;
-    min-width: 10em;
+    flex: 0 0 auto;
     width: max(12.5%, 10em);
-    padding-right: 3.35em;
+    min-width: 10em;
+    margin: 0 1em;
+    padding-right: 3.33em;
 }
 
 .profile-pic {
-    text-align: center;
-    width: 8.33em;
-    height: 8.33em;
-    border-radius: 50%;
+    width: 9.5em;
+    height: 9.5em;
     margin-bottom: 1em;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .headline {
@@ -44,14 +39,15 @@ main {
 .contact {
     display: flex;
     flex-direction: column;
-    gap: 0.335em;
+    margin-bottom: 1em;
+    gap: 0.333em;
 }
 
 .link {
-    gap: 0.67em;
     display: flex;
-    margin-bottom: 0.335em;
     width: min-content;
+    margin-bottom: 0.333em;
+    gap: 0.67em;
     white-space: nowrap;
 }
 
@@ -67,15 +63,15 @@ main {
 }
 
 .headline h2 {
-    font-size: 1em;
-    margin-bottom: 0.134em;
+    margin-bottom: 0.133em;
+    font-size: 1.25em;
 }
 
 .abilities .headline p {
     display: flex;
     align-items: center;
+    margin: 0.085em;
     gap: 0.1675em;
-    margin: 0.084em;
     white-space: nowrap;
 }
 
@@ -85,14 +81,14 @@ main {
 }
 
 header {
-    padding: 0.67em;
-    color: white;
-    background-color: rgb(46, 40, 86);
     margin-bottom: 0.67em;
+    padding: 0.67em;
+    background-color: rgb(46, 40, 86);
+    color: white;
 }
 
 h1 {
-    font-size: 1.34em;
+    font-size: 1.33em;
 }
 
 .pitch {
@@ -101,19 +97,19 @@ h1 {
 
 .border-container {
     display: inline-block;
-    border-bottom: white solid 1.34px;
-    padding-right: 0.838em;
+    padding-right: 0.825em;
+    border-bottom: white solid 1.33px;
 }
 
 h3 {
-    white-space: nowrap;
     width: min-content;
+    white-space: nowrap;
 }
 
 .content h2,
 .content h4 {
-    padding: 0 0.838em;
     margin: 0.1675em 0;
+    padding: 0 0.825em;
 }
 
 .content h2 {
@@ -131,14 +127,14 @@ h3 {
 }
 
 .description {
-    font-size: 0.9375em;
     max-width: 90%;
     margin-bottom: 0.75em;
     margin-left: 0.75em;
+    font-size: 0.9375em;
 }
 
 h4 {
-    font-size: 90%;
     padding: 0;
+    font-size: 90%;
     font-weight: 700;
 }

@@ -112,6 +112,11 @@ h1 {
     font-weight: 700;
 }
 
+.lightweight {
+    font-weight: 400;
+    /* font-style: italic; */
+}
+
 .border-container {
     display: inline-block;
     border-bottom: aliceblue solid 1.33px;

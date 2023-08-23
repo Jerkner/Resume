@@ -43,8 +43,8 @@ main {
 }
 
 header .highlight {
-    color: rgb(255, 192, 203);
     font-weight: 400;
+    color: rgb(255, 192, 203);
 }
 
 .contact {
@@ -60,10 +60,10 @@ a {
 }
 
 .link {
-    text-decoration: none;
     display: flex;
     width: min-content;
     margin-bottom: 0.333em;
+    text-decoration: none;
     gap: 0.67em;
     white-space: nowrap;
 
@@ -108,13 +108,13 @@ header {
     color: aliceblue;
 }
 
-h1 {
+.name {
     font-size: 2em;
 }
 
 .pitch {
-    margin-top: 0.1675em;
     max-width: 90%;
+    margin-top: 0.1675em;
 }
 
 .highlight {
@@ -127,14 +127,14 @@ h1 {
 
 .border-container {
     display: inline-block;
-    border-bottom: aliceblue solid 1.33px;
     padding-right: 0.825em;
+    border-bottom: aliceblue solid 1.33px;
 }
 
 .subtitle {
-    font-weight: 600;
-    font-size: 1.25em;
     width: min-content;
+    font-size: 1.25em;
+    font-weight: 600;
     white-space: nowrap;
 }
 
@@ -185,5 +185,11 @@ h4 {
 }
 
 u {
+    font-weight: 600;
     text-underline-offset: 0.15em;
+}
+
+.location {
+    font-style: italic;
+    font-weight: 600;
 }

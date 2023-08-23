@@ -61,6 +61,10 @@ a {
     margin-bottom: 0.333em;
     gap: 0.67em;
     white-space: nowrap;
+
+    /* For screenshots:  */
+
+    color: blue; 
 }
 
 .icon {
@@ -153,7 +157,7 @@ h1 {
 .description {
     max-width: 90%;
     margin-bottom: 0.75em;
-    margin-left: 0.75em;
+    margin-left: 1.4em;
     font-size: 0.9375em;
 }
 

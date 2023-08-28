@@ -64,7 +64,7 @@ a {
     width: min-content;
     margin-bottom: 0.333em;
     text-decoration: none;
-    gap: 0.67em;
+    gap: 0.5em;
     white-space: nowrap;
 
     /* For screenshots:  */
@@ -73,7 +73,8 @@ a {
 }
 
 .icon {
-    width: 1em;
+    max-width: 1em;
+    min-width: 1em;
     height: 1em;
     fill: rgb(46, 40, 86);
 }
@@ -88,12 +89,12 @@ a {
     font-size: 1.25em;
 }
 
-.abilities .headline p {
+li {
     display: flex;
     align-items: center;
-    margin: 0.085em;
-    gap: 0.1675em;
+    margin-bottom: 0.5em;
     white-space: nowrap;
+    gap: 0.5em;
 }
 
 .column-right {
@@ -119,10 +120,6 @@ header {
 
 .highlight {
     font-weight: 700;
-}
-
-.lightweight {
-    font-weight: 400;
 }
 
 .border-container {

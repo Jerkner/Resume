@@ -12,6 +12,7 @@ body {
     background-color: aliceblue;
     font-family: 'Open Sans', sans-serif;
     color: rgb(46, 40, 86);
+    letter-spacing: 0.5px;
 }
 
 main {
@@ -23,7 +24,7 @@ main {
 
 .column-left {
     flex: 0 0 auto;
-    width: max(12.5%, 10em);
+    width: max(16.7%, 10em);
     min-width: 10em;
     margin: 0 1em;
     padding-right: 3.33em;
@@ -69,7 +70,7 @@ a {
 
     /* For screenshots:  */
 
-    /* color: blue; */
+    color: blue;
 }
 
 .icon {
@@ -92,13 +93,13 @@ a {
 li {
     display: flex;
     align-items: center;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.33em;
     white-space: nowrap;
     gap: 0.5em;
 }
 
 .column-right {
-    width: 86.6%;
+    width: 83.3%;
     margin-right: 1em;
 }
 
@@ -159,7 +160,7 @@ header {
 }
 
 .description {
-    max-width: 80%;
+    max-width: 83%;
     margin-bottom: 0.75em;
     margin-left: 1.4em;
     font-size: 0.9375em;
@@ -189,4 +190,8 @@ u {
 .location {
     font-style: italic;
     font-weight: 600;
+}
+
+.avoid-wrap {
+    display: inline-block;
 }

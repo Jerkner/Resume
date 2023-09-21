@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +12,7 @@ html {
 
 body {
     background-color: aliceblue;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: rgb(46, 40, 86);
     letter-spacing: 0.5px;
 }
@@ -28,7 +30,6 @@ main {
     min-width: 10em;
     margin: 0 1em;
     padding-right: 3.33em;
-
 }
 
 .profile-pic {

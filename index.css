@@ -87,6 +87,7 @@ a {
 }
 
 .headline h2 {
+    letter-spacing: 0.05em;
     margin-bottom: 0.133em;
     font-size: 1.25em;
 }

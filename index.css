@@ -86,9 +86,17 @@ a {
     border-bottom: solid black 1.34px;
 }
 
+/* Portrait mode */
+
+/* .abilities {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+} */
+
 .headline h2 {
     letter-spacing: 0.05em;
-    margin-bottom: 0.133em;
+    margin-bottom: 0.25em;
     font-size: 1.25em;
 }
 
@@ -136,6 +144,12 @@ header {
     font-size: 1.25em;
     font-weight: 600;
     white-space: nowrap;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
 }
 
 .content h2 {

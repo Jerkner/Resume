@@ -178,7 +178,7 @@ header {
 .description {
     max-width: 83%;
     margin-bottom: 0.75em;
-    margin-left: 1.4em;
+    margin-left: 1.55em;
     font-size: 0.9375em;
 }
 
@@ -189,6 +189,7 @@ h4 {
 }
 
 .bullet {
+    font-size: 1rem;
     display: flex;
     align-items: flex-start;
 }

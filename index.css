@@ -189,7 +189,7 @@ h4 {
 }
 
 .bullet {
-    font-size: 1rem;
+    /* font-size: 1rem; */
     display: flex;
     align-items: flex-start;
 }
